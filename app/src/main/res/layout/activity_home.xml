@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--将对应的属性抽取到样式中-->
+    <TextView
+        style="@style/TitleStyle"
+        android:text="功能列表" />
+
+    <!--使用自定义控件达到滚动效果-->
+    <!--自定义控件达到滚动效果，让原有的TextView一直能够获取焦点即可-->
+
+    <!--滚起来，跑马灯666-->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="我真不知道这把怎么输，今天是个上坟的好日子,我带你们打666666666666666666666666"
+        android:textColor="#000" />-->
+
+    <top.cnzrg.mysafe.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:text="我真不知道这把怎么输，今天是个上坟的好日子,我带你们打666666666666666666666666"
+        android:textColor="#000"></top.cnzrg.mysafe.view.FocusTextView>
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"></GridView>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MySafe</string>
+    <string name="title_activity_setup_over">SetupOverActivity</string>
+</resources>

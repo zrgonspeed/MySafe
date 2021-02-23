@@ -1,0 +1,91 @@
+<resources>
+    <!-- PopupWindow弹出/隐藏动画 -->
+    <style name="MyPopupWindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_hidden_anim</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="功能列表"
+        android:textSize="25sp" />
+    -->
+    <style name="TitleStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">#CDD6D9</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!--    <Button
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/selector_next_pre_btn_bg"
+            android:gravity="center"
+            android:onClick="nextPage"
+            android:padding="0dp"
+            android:text="下一步"
+            android:textColor="#fdfdfd"
+            android:textSize="20sp" />-->
+    <style name="nextBtn">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/selector_next_pre_btn_bg</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">137dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">nextPage</item>
+        <item name="android:text">下一步</item>
+        <item name="android:textColor">#fdfdfd</item>
+    </style>
+
+    <style name="preBtn">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/selector_next_pre_btn_bg</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">137dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">prePage</item>
+        <item name="android:text">上一步</item>
+        <item name="android:textColor">#fdfdfd</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

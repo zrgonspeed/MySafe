@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="desctitle" format="string"></attr>
+        <attr name="descoff" format="string"></attr>
+        <attr name="descon" format="string"></attr>
+    </declare-styleable>
+
+</resources>

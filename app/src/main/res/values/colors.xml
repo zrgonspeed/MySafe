@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAtoolPress">#5ABBF1</color>
+    <color name="colorAtoolNormal">#3F99EC</color>
+
+    <!--popwindow的颜色-->
+    <color name="colorBg">#ffffff</color>
+    <color name="colorTr">#00000000</color>
+    <color name="colorPress">#96c7c7c7</color>
+    <color name="colorNormal">#00ffffff</color>
+</resources>

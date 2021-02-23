@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 选中时变为深绿色图片 -->
+    <item android:drawable="@color/colorPress" android:state_pressed="true" />
+    <!-- 浅绿色图片 -->
+    <item android:drawable="@color/colorNormal" />
+
+</selector>

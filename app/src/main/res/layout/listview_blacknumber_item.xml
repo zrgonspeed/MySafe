@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="5dp"
+    android:paddingLeft="5dp">
+
+    <TextView
+        android:id="@+id/tv_blacknumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13677735095"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_blacknumber_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_blacknumber"
+        android:text="拦截所有"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/iv_blacknumber_trash"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_blacknumber_delete_btn_bg" />
+
+</RelativeLayout>
